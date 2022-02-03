@@ -1,24 +1,16 @@
-# README
+# Readme
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The code in this repository was written to accompany the tutorial originally published [here](https://www.colby.so/posts/real-time-previews-with-stimulus-reflex).
 
-Things you may want to cover:
+The tutorial and this Rails 7 application demonstrate a simple implementation of parsing markdown and liquid content on the server, with real-time updates sent to the client using StimulusReflex.
 
-* Ruby version
+To run this repo locally, clone it, checkout the complete branch and then:
+```
+bundle install
+yarn
+rails db:create db:migrate
+bin/dev
+```
+Once the application is booted, visit http://localhost:3000/posts/new and start typing.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+To see this application running in production, check it out [on Heroku](https://post-previewer-md.herokuapp.com/).
