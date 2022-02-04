@@ -75,3 +75,7 @@ group :test do
 end
 
 gem "stimulus_reflex", "= 3.5.0.pre8"
+
+gem "redcarpet", "~> 3.5"
+
+gem "liquid", "~> 5.1"

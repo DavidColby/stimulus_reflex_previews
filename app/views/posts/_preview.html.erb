@@ -1,0 +1,10 @@
+<div class="bg-gray-200 p-4 shadow-sm rounded-sm">
+  <article class="prose">
+    <h2 class="text-2xl font-bold" id="preview-title">
+      <%= post.title %>
+    </h2>
+    <div id="preview-body">
+      <%= to_markdown(post.body) %>
+    </div>
+  </article>
+</div>
